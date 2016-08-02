@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ <Button
+        android:id="@+id/btn_signout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/pad_50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/profile_signout_bg"
+        android:text="@string/signout_profile"
+        android:textColor="@color/white" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_signout" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_pic"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/pad_20dp"
+                    android:paddingRight="@dimen/pad_20dp" >
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/john"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_25sp" />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/example"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/txt_14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/pad_20dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingRight="@dimen/pad_15dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/pad_30dp"
+                            android:text="@string/firstname"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/pad_30dp"
+                            android:text="@string/lastname"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/email_profile"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="vertical" >
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="@string/john1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/my_purchase_list_sap" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/pad_30dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="@string/john2"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/my_purchase_list_sap" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/pad_30dp" />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="@string/john1"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/my_purchase_list_sap" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="@dimen/pad_20dp"
+                    android:paddingLeft="@dimen/pad_20dp" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingRight="@dimen/pad_10dp" >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/pad_30dp"
+                            android:text="@string/notification"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/passcode"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/txt_16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/pad_10dp"
+                        android:orientation="vertical" >
+
+                        <CheckBox
+                            android:id="@+id/chk1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:button="@drawable/selector_check"
+                            android:paddingRight="@dimen/pad_10dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/pad_30dp" />
+
+                        <CheckBox
+                            android:id="@+id/chk2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:button="@drawable/selector_check"
+                            android:paddingRight="@dimen/pad_10dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/pad_20dp"
+                    android:text="@string/aboutdailydeal"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/txt_16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+   
+
+</RelativeLayout><!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/layout/profile.xml -->

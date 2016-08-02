@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item
+        android:state_checked="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/check_new"
+     />
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/uncheck_new" />
+    </selector><!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals%20Android/app/src/main/res/drawable/selector_check.xml -->

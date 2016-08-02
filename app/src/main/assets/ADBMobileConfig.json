@@ -1,0 +1,33 @@
+{
+  "lastModified": "2015-06-22T19:55:50.832Z",
+  "target": {
+	"clientCode": "telus",
+	"timeout": 5
+  },
+  "audienceManager": {
+	"server": ""
+  },
+  "acquisition": {
+	"server": "c00.adobe.com",
+	"appid": "fe64854496afffb5ee973ca71f1aaf7ccd9235abcdfa65a7d16186cab406eacc"
+  },
+  "analytics": {
+	"rsids": "geo1xxfsi233",
+	"server": "analytics4target.sc.omtrdc.net",
+	"ssl": false,
+	"offlineEnabled": true,
+	"charset": "UTF-8",
+	"lifecycleTimeout": 300,
+	"privacyDefault": "optedin",
+	"batchLimit": 0,
+	"timezone": "MDT",
+	"timezoneOffset": -360,
+	"referrerTimeout": 0,
+	"poi": []
+  },
+  "messages": [],
+  "remotes": {
+	"analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-5588683c37303100170000ad.json",
+	"messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-558868393461660017001552.json"
+  }
+}

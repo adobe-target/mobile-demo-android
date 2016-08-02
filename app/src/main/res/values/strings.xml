@@ -1,0 +1,75 @@
+<resources>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    
+    
+    <string name="app_name">Daily Deals</string>
+    <string name="email_1">E-mail address</string>
+    <string name="Password">........</string>
+    <string name="signin">Sign in</string>
+    <string name="forgotpass">Forget password?</string>
+    <string name="Newhere">New here?</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="facebook">facebook</string>
+    <string name="dailydeal">Daily Deal</string>
+    <string name="new1">NEW</string>
+    <string name="popular">POPULAR</string>
+    <string name="endingsoon">ENDING SOON</string>
+    <string name="$150">$150</string>
+    <string name="$100">$100</string>
+    <string name="Bought">Bought</string>
+    <string name="s45">45</string>
+    <string name="s52">52%</string>
+    <string name="s32">32</string>
+    <string name="remaining">Remaining</string>
+    <string name="saving">Saving</string>
+    <string name="blue_mountains">Blue Mountains Day Tour</string>
+    <string name="Shangri_La">Shangri-La Hotel</string>
+    <string name="coupon">COUPON</string>
+    <string name="code">00309898987</string>
+    <string name="redeamed">REDEAMED</string>
+    <string name="mypurchase">My Purchases</string>
+    <string name="date">2.4.2014</string>
+    <string name="$45">$45</string>
+    <string name="redeemed">Redeemed</string>
+    <string name="expired">Expired</string>
+    <string name="fancy_a">Fancy a blue mountains trip?</string>
+    <string name="purchases">Purchases</string>
+    <string name="s450">$450</string>
+    <string name="profile">Profile</string>
+    <string name="john">John Doe</string>
+    <string name="example">example@gmail.com</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="notification">Notification</string>
+    <string name="passcode">Pass Code</string>
+    <string name="aboutdailydeal">About Daily Deals</string>
+    <string name="john1">John</string>
+    <string name="john2">Doe</string>
+    <string name="email_profile">Email</string>
+    <string name="signout">Signout</string>
+    <string name="signout_profile">Sign Out</string>
+    <string name="paragraph">The stunning Blue Mountains are a little over \nan hour from Sydny and the very best way to visit our Blue Mountains Tour for the great value of only $79.Enjoy Australian natural native animals in their natural habitat, spectecular scenic lookouts,an abundance of Aboriginal history and the chanceto ride the steepest railway in the 
+	    world!\nEnjoy Australian natural native animals in their natural habitat,spectecular scenic lookouts.</string>
+    <string name="timeleft">Time left</string>
+    <string name="timeleft2"> 36:16:12</string>
+    <string name="search">Search</string>
+
+    <string name="liberty">Statue of Liberty</string>
+    <string name="niagra">Niagra Falls</string>
+
+    <string name="londoneye">London Eye</string>
+    <string name="Tower">Tower Bridge</string>
+
+    <string name="opera">Sydney Opera House</string>
+    <string name="reef">Great Barrier Reef</string>
+
+
+    <string name="australia">Australia</string>
+    <string name="usa">United States</string>
+    <string name="uk">United Kingdom</string>
+
+
+
+</resources>

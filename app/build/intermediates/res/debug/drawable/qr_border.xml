@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/white" />
+    <stroke
+        android:width="4dp"
+        android:color="#FF5E47" />
+    
+
+</shape><!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals%20Android/app/src/main/res/drawable/qr_border.xml -->

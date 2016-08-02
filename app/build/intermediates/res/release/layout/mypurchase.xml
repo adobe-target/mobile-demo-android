@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <ListView
+        android:id="@+id/list_my_purchase"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/mypuchase_item" 
+        android:divider="@null">
+
+    </ListView>
+   
+    
+    <LinearLayout
+                android:id="@+id/lin_footer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pad_50dp"
+               android:paddingLeft="@dimen/pad_20dp"
+                android:background="@drawable/buy_gray_bg"
+                android:orientation="horizontal" 
+               >
+
+        <ImageView
+            android:id="@+id/IVcart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/my_purchase_cart" 
+            android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/TV7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/purchases"
+                    android:textColor="@color/white"
+                    android:padding="@dimen/pad_10dp" />
+
+                <TextView
+                    android:id="@+id/TV8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/s450"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/txt_20sp" />
+            </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/layout/mypurchase.xml -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/parthasa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/parthasa/Dropbox/Adobe demo/Deals Android/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9ec2c68a369f644fba4c24b7df170cd2eadecfd3.jar" />
+    </item>
+    <item
+        jar="/Users/parthasa/Dropbox/Adobe demo/Deals Android/app/libs/adobeMobileLibrary-4.5.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91d98ac41859f8e66c5881e275ce436a6ada48c7">
+        <dex dex="/Users/parthasa/Dropbox/Adobe demo/Deals Android/app/build/intermediates/pre-dexed/debug/adobeMobileLibrary-4.5.1-f4b596e5b60880ad79483825972017da5a1a0b40.jar" />
+    </item>
+
+</items>

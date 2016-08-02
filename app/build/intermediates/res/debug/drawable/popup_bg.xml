@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@null"
+                android:endColor="#3f3d3d"
+                android:angle="270" />
+        </shape>
+    </item>
+</selector><!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals%20Android/app/src/main/res/drawable/popup_bg.xml -->

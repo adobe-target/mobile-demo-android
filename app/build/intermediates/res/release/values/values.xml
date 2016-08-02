@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#3f3d3d</color>
+    <color name="coupon_color">#575e6e</color>
+    <color name="daily_deal_trans_bg">#263342</color>
+    <color name="dark_gray">#9e9999</color>
+    <color name="gray">#a1a1a1</color>
+    <color name="gray_light">#DCD8D8</color>
+    <color name="light2_red">#FF624C</color>
+    <color name="light_black">#7a7070</color>
+    <color name="light_black2">#726767</color>
+    <color name="light_red">#FF5E47</color>
+    <color name="main_color_gray_lt">#a1a1a1</color>
+    <color name="menu_color">#FFC9C3</color>
+    <color name="my_purchase_list_sap">#EBEBEB</color>
+    <color name="p_color">#575E6E</color>
+    <color name="profile_signout_bg">#727A84</color>
+    <color name="red">#ff0000</color>
+    <color name="red_main">#ff5e47</color>
+    <color name="side_menu_saperator">#727A84</color>
+    <color name="tab_color">#FFFF8D</color>
+    <color name="text_gray">#575E6E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_dull">#e5dede</color>
+    <!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/values/dimen.xml -->
+    <eat-comment/>
+    <dimen name="pad_100dp">100dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_120dp">120dp</dimen>
+    <dimen name="pad_130dp">130dp</dimen>
+    <dimen name="pad_13dp">13dp</dimen>
+    <dimen name="pad_140dp">140dp</dimen>
+    <dimen name="pad_14dp">14dp</dimen>
+    <dimen name="pad_150dp">150dp</dimen>
+    <dimen name="pad_155dp">155dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="pad_160dp">160dp</dimen>
+    <dimen name="pad_161dp">161dp</dimen>
+    <dimen name="pad_162p">162dp</dimen>
+    <dimen name="pad_163dp">163dp</dimen>
+    <dimen name="pad_165dp">180dp</dimen>
+    <dimen name="pad_170dp">170dp</dimen>
+    <dimen name="pad_175dp">175dp</dimen>
+    <dimen name="pad_180dp">165dp</dimen>
+    <dimen name="pad_18dp">18dp</dimen>
+    <dimen name="pad_190dp">190dp</dimen>
+    <dimen name="pad_195dp">195dp</dimen>
+    <dimen name="pad_19dp">19dp</dimen>
+    <dimen name="pad_1dp">1dp</dimen>
+    <dimen name="pad_2.5dp">2.5dp</dimen>
+    <dimen name="pad_200dp">200dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="pad_22dp">22dp</dimen>
+    <dimen name="pad_250dp">250dp</dimen>
+    <dimen name="pad_255dp">255dp</dimen>
+    <dimen name="pad_25dp">25dp</dimen>
+    <dimen name="pad_275dp">275dp</dimen>
+    <dimen name="pad_27dp">27dp</dimen>
+    <dimen name="pad_280dp">280dp</dimen>
+    <dimen name="pad_28dp">28dp</dimen>
+    <dimen name="pad_29dp">29dp</dimen>
+    <dimen name="pad_2dp">2dp</dimen>
+    <dimen name="pad_300dp">300dp</dimen>
+    <dimen name="pad_30dp">30dp</dimen>
+    <dimen name="pad_320dp">320dp</dimen>
+    <dimen name="pad_330dp">330dp</dimen>
+    <dimen name="pad_35dp">35dp</dimen>
+    <dimen name="pad_36dp">36dp</dimen>
+    <dimen name="pad_37dp">37dp</dimen>
+    <dimen name="pad_38dp">38dp</dimen>
+    <dimen name="pad_3dp">3dp</dimen>
+    <dimen name="pad_40dp">40dp</dimen>
+    <dimen name="pad_42dp">42dp</dimen>
+    <dimen name="pad_43dp">43dp</dimen>
+    <dimen name="pad_45dp">45dp</dimen>
+    <dimen name="pad_50dp">50dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_60dp">60dp</dimen>
+    <dimen name="pad_70dp">70dp</dimen>
+    <dimen name="pad_7dp">7dp</dimen>
+    <dimen name="pad_80dp">80dp</dimen>
+    <dimen name="pad_85dp">85dp</dimen>
+    <dimen name="pad_87dp">87dp</dimen>
+    <dimen name="pad_88dp">88dp</dimen>
+    <dimen name="pad_8dp">8dp</dimen>
+    <dimen name="pad_90dp">90dp</dimen>
+    <dimen name="pad_95dp">95dp</dimen>
+    <dimen name="pad_9dp">9dp</dimen>
+    <dimen name="txt_12sp">12sp</dimen>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="txt_15sp">15sp</dimen>
+    <dimen name="txt_16sp">16sp</dimen>
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="txt_21sp">21sp</dimen>
+    <dimen name="txt_22sp">22sp</dimen>
+    <dimen name="txt_25sp">25sp</dimen>
+    <!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <drawable name="actionbar_bg">#FF5E47</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="$100">$100</string>
+    <string name="$150">$150</string>
+    <string name="$45">$45</string>
+    <string name="Bought">Bought</string>
+    <string name="Newhere">New here?</string>
+    <string name="Password">........</string>
+    <string name="Shangri_La">Shangri-La Hotel</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Tower">Tower Bridge</string>
+    <string name="aboutdailydeal">About Daily Deals</string>
+    <string name="app_name">Daily Deals</string>
+    <string name="australia">Australia</string>
+    <string name="blue_mountains">Blue Mountains Day Tour</string>
+    <string name="code">00309898987</string>
+    <string name="coupon">COUPON</string>
+    <string name="dailydeal">Daily Deal</string>
+    <string name="date">2.4.2014</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="email_1">E-mail address</string>
+    <string name="email_profile">Email</string>
+    <string name="endingsoon">ENDING SOON</string>
+    <string name="example">example@gmail.com</string>
+    <string name="expired">Expired</string>
+    <string name="facebook">facebook</string>
+    <string name="fancy_a">Fancy a blue mountains trip?</string>
+    <string name="firstname">First Name</string>
+    <string name="forgotpass">Forget password?</string>
+    <string name="john">John Doe</string>
+    <string name="john1">John</string>
+    <string name="john2">Doe</string>
+    <string name="lastname">Last Name</string>
+    <string name="liberty">Statue of Liberty</string>
+    <string name="londoneye">London Eye</string>
+    <string name="mypurchase">My Purchases</string>
+    <string name="new1">NEW</string>
+    <string name="niagra">Niagra Falls</string>
+    <string name="notification">Notification</string>
+    <string name="opera">Sydney Opera House</string>
+    <string name="paragraph">The stunning Blue Mountains are a little over \nan hour from Sydny and the very best way to visit our Blue Mountains Tour for the great value of only $79.Enjoy Australian natural native animals in their natural habitat, spectecular scenic lookouts,an abundance of Aboriginal history and the chanceto ride the steepest railway in the 
+	    world!\nEnjoy Australian natural native animals in their natural habitat,spectecular scenic lookouts.</string>
+    <string name="passcode">Pass Code</string>
+    <string name="popular">POPULAR</string>
+    <string name="profile">Profile</string>
+    <string name="purchases">Purchases</string>
+    <string name="redeamed">REDEAMED</string>
+    <string name="redeemed">Redeemed</string>
+    <string name="reef">Great Barrier Reef</string>
+    <string name="remaining">Remaining</string>
+    <string name="s32">32</string>
+    <string name="s45">45</string>
+    <string name="s450">$450</string>
+    <string name="s52">52%</string>
+    <string name="saving">Saving</string>
+    <string name="search">Search</string>
+    <string name="signin">Sign in</string>
+    <string name="signout">Signout</string>
+    <string name="signout_profile">Sign Out</string>
+    <string name="timeleft">Time left</string>
+    <string name="timeleft2"> 36:16:12</string>
+    <string name="uk">United Kingdom</string>
+    <string name="usa">United States</string>
+    <!-- From: file:/Users/parthasa/Documents/Mobile%20Demos/Deals/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        
+    </style>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="MyTheme" parent="@style/AppBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_drawer</item>
+    </style>
+    <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="editext_normal" parent="android:Widget.EditText">
+        <item name="android:drawablePadding">@dimen/pad_10dp</item>
+          <item name="android:ems">10</item>
+         
+          <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+</resources>

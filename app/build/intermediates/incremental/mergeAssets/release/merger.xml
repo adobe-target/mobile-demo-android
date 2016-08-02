@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/parthasa/Documents/Mobile Demos/Deals/app/src/main/assets"><file name="ADBMobileConfig.json" path="/Users/parthasa/Documents/Mobile Demos/Deals/app/src/main/assets/ADBMobileConfig.json"/></source></dataSet><dataSet config="release"><source path="/Users/parthasa/Documents/Mobile Demos/Deals/app/src/release/assets"/></dataSet></merger>

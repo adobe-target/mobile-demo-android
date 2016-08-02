@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/l"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/icon_sidemenu_profile_normal"
+    android:drawablePadding="@dimen/pad_25dp"
+    android:padding="@dimen/pad_20dp"
+    android:text="@string/profile"
+    android:textColor="@color/gray"
+    android:textSize="@dimen/txt_18sp" 
+    android:gravity="center_vertical"/>

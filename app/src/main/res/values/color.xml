@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="main_color_gray_lt">#a1a1a1</color>
+    <drawable name="transparent">#00000000</drawable>
+    <color name="light_black">#7a7070</color>
+    <color name="red">#ff0000</color>
+    <color name="light_red">#FF5E47</color>
+    <color name="red_main">#ff5e47</color>
+    <color name="white_dull">#e5dede</color>
+    <color name="black">#3f3d3d</color>
+    <color name="gray">#a1a1a1</color>
+    <color name="dark_gray">#9e9999</color>
+    <color name="light_black2">#726767</color>
+    <color name="menu_color">#FFC9C3</color>
+    <color name="text_gray">#575E6E</color>
+    <color name="light2_red">#FF624C</color>
+    <color name="gray_light">#DCD8D8</color>
+    <drawable name="actionbar_bg">#FF5E47</drawable>
+    <color name="tab_color">#FFFF8D</color>
+    <color name="side_menu_saperator">#727A84</color>
+    <color name="my_purchase_list_sap">#EBEBEB</color>
+    <color name="profile_signout_bg">#727A84</color>
+    <color name="p_color">#575E6E</color>
+    <color name="coupon_color">#575e6e</color>
+    <color name="daily_deal_trans_bg">#263342</color>
+</resources>
