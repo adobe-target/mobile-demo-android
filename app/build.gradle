@@ -21,4 +21,5 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:19.1.0'
     compile files('libs/adobeMobileLibrary-4.5.1.jar')
+    compile files('libs/adobeMobileLibrary-4.11.1.jar')
 }

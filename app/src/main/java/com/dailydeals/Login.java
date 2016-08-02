@@ -55,25 +55,51 @@ public class Login extends CustomActivity {
 	    signup.setText("");
 
 
-		Map<String, String> userData = new HashMap<String, String>();
-        userData.put("account_type", "Regular");
-        userData.put("savings","true");
-        userData.put("checking_balance","10000");
-        userData.put("user_cohort", "5");
 
-		System.out.print(userData);
+//        Passing custom parameters for targeting. In this example, the parameters are
+//        hardcoded but typically variables should be used for sending custom profile information.
+
+//        Keys with the prefix profile (eg: profile.gender) are stored on the user's profile.
+//        These profile attributes can be used across different activities and channels.
+
+//        Keys that don't have any prefix (eg: userMiles) are mbox parameters.
+//        These parameters are available only during the session.
+
+//        Keys with the prefix entity (eg: entity.category.id) are used for product recommendations.
 
 
-		MboxCaller.makeMboxCall("new-welcome-message",
-                "Default Message", Collections.<String, Object>emptyMap(),
+
+        Map<String, Object> targetParams = new HashMap<String, Object>();
+        targetParams.put("male", "profile.gender");
+        targetParams.put("platinum", "profile.memberLevel");
+        targetParams.put("true", "loyaltyAccount");
+        targetParams.put("abcd1234", "mbox3rdPartyId"); // mbox3rdPartyId is a reserved key where you can pass your crm/internal user id
+        targetParams.put("android.dev", "env");         // The value (eg: ios.prod) needs to be dynamic based on the app environment.
+                                                        // This is used for building audiences for testing
+
+
+        // Here 'welcome-message-rp' is the name of the location. This will show up in the content
+        // location dropdown in the UI.
+
+
+        // See the MboxCaller class or examples and methods in this page
+        // https://marketing.adobe.com/resources/help/en_US/mobile/android/c_target_methods.html
+
+		MboxCaller.makeMboxCall("welcome-message-rp",
+                "default.png", targetParams,
                 new Target.TargetCallback<String>() {
 
                     @Override
                     public void call(final String content) {
+
+                        // It is typically a bad practice to run on the main thread! This is just for the demo.
+                        // In your production app, get this content without blocking, typically before the view is rendered
+                        // so that the end user won't see a flicker when new content is inserted or replaced.
+
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                Log.d("-----new-welcome-message----", content);
+                                Log.d("welcome-message-rp----", content);
                                 if (!content.equals("Default Message")) {
                                     signup.setText(content);
                                 }
@@ -81,39 +107,6 @@ public class Login extends CustomActivity {
                         });
                     }
                 });
-
-		MboxCaller.makeMboxCall("social-signup",
-				"Default Message", Collections.<String, Object>emptyMap(),
-				new Target.TargetCallback<String>() {
-
-					View tw = findViewById(R.id.btntw);
-					View fb = findViewById(R.id.btnfb);
-
-
-
-					@Override
-					public void call(final String content) {
-						runOnUiThread(new Runnable() {
-							@Override
-							public void run() {
-								Log.d("----social-signup----", content);
-
-								if (content.equals("no-social")){
-									tw.setVisibility(View.INVISIBLE);
-									fb.setVisibility(View.INVISIBLE);
-								} else if (content.equals("fb")) {
-									tw.setVisibility(View.INVISIBLE);
-
-								} else if (content.equals("tw")) {
-									fb.setVisibility(View.INVISIBLE);
-								}
-							}
-						});
-					}
-				});
-
-
-		MboxCaller.makeMboxConfirm("confirm_mbox_call", "order", "3.00", null, null, null);
 
 	}
 
@@ -127,6 +120,8 @@ public class Login extends CustomActivity {
 		if (v.getId() != R.id.signup)
 		{
 			startActivity(new Intent(this.getApplicationContext(), DailyDeal.class));
+
+            MboxCaller.makeMboxConfirm("user-signed-up", "12345", "90.50", "abcd, efgh", null, null);
 			finish();
 		}
 	}
