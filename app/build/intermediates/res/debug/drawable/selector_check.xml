@@ -9,4 +9,4 @@
     <item
         android:state_enabled="true"
         android:drawable="@drawable/uncheck_new" />
-    </selector><!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/drawable/selector_check.xml -->
+    </selector><!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/drawable/selector_check.xml -->

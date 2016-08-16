@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="black">#3f3d3d</color>
     <color name="coupon_color">#575e6e</color>
@@ -24,7 +24,7 @@
     <color name="text_gray">#575E6E</color>
     <color name="white">#FFFFFF</color>
     <color name="white_dull">#e5dede</color>
-    <!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/values/dimen.xml -->
+    <!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/values/dimen.xml -->
     <eat-comment/>
     <dimen name="pad_100dp">100dp</dimen>
     <dimen name="pad_10dp">10dp</dimen>
@@ -97,11 +97,11 @@
     <dimen name="txt_21sp">21sp</dimen>
     <dimen name="txt_22sp">22sp</dimen>
     <dimen name="txt_25sp">25sp</dimen>
-    <!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/values/color.xml -->
+    <!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <drawable name="actionbar_bg">#FF5E47</drawable>
     <drawable name="transparent">#00000000</drawable>
-    <!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="$100">$100</string>
     <string name="$150">$150</string>
@@ -165,7 +165,7 @@
     <string name="timeleft2"> 36:16:12</string>
     <string name="uk">United Kingdom</string>
     <string name="usa">United States</string>
-    <!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         

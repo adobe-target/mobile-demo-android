@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/parthasa/Dropbox/Adobe demo/Deals_Android/app/libs/adobeMobileLibrary-4.11.1.jar"
+        jar="/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/libs/adobeMobileLibrary-4.11.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b1afc8c0d733a456fb87258c92cc91e55b8bec8e">
-        <dex dex="/Users/parthasa/Dropbox/Adobe demo/Deals_Android/app/build/intermediates/pre-dexed/debug/adobeMobileLibrary-4.11.1-06b99bb13baeea84bfe5a9ca0c3a15b9ed283b4b.jar" />
+        <dex dex="/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/build/intermediates/pre-dexed/debug/adobeMobileLibrary-4.11.1-96385c45a32182321223be0006bc85684c9e8e96.jar" />
     </item>
     <item
         jar="/Users/parthasa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/parthasa/Dropbox/Adobe demo/Deals_Android/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9ec2c68a369f644fba4c24b7df170cd2eadecfd3.jar" />
+        <dex dex="/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-9ec2c68a369f644fba4c24b7df170cd2eadecfd3.jar" />
     </item>
 
 </items>

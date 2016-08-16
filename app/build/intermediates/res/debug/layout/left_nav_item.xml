@@ -10,4 +10,4 @@
     android:textColor="@color/gray"
     android:textSize="@dimen/txt_18sp" 
     android:gravity="center_vertical"/>
-<!-- From: file:/Users/parthasa/Dropbox/Adobe%20demo/Deals_Android/app/src/main/res/layout/left_nav_item.xml -->
+<!-- From: file:/Users/parthasa/Dropbox/pandora/target-mobile-android-demo/app/src/main/res/layout/left_nav_item.xml -->
